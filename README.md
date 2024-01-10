@@ -1,4 +1,4 @@
-Ссылка на лендинг: industrious-produce.surge.sh
+Ссылка на лендинг: https://gullible-money.surge.sh/
 
 ### Hexlet tests and linter status:
 
