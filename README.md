@@ -1,4 +1,4 @@
-Ссылка на лендинг: flowery-rake.surge.sh
+Ссылка на лендинг: industrious-produce.surge.sh
 
 ### Hexlet tests and linter status:
 

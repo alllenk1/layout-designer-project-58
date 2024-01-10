@@ -216,9 +216,12 @@ h3 {
 /* video section */
 
 .video-section {
-  height: 805px;
-  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  align-items: center;
+  height: 100%;
+  padding: 100px 0;
 }
 
 .video-section__title {
@@ -230,6 +233,9 @@ h3 {
 }
 
 .video-section__video {
+  width: 919px;
+  height: 569px;
+
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
@@ -237,6 +243,7 @@ h3 {
 
 .menu-section {
   padding-top: 105px;
+  margin-top: -195px;
   background-color: var(--base-dark);
 }
 
