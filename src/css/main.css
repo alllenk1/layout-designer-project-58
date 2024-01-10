@@ -194,6 +194,7 @@ h3 {
   position: absolute;
   top: 55px;
   right: -270px;
+  z-index: -1;
 
   width: auto;
   height: 525px;
@@ -221,11 +222,11 @@ h3 {
 }
 
 .video-section__title {
-  margin-top: 5px;
+  margin: 6px 0 25px;
 }
 
 .video-section__text {
-  margin: 24px 0;
+  margin-bottom: 30px;
 }
 
 .video-section__video {

@@ -1,4 +1,4 @@
-Ссылка на лендинг: https://envious-attack.surge.sh/
+Ссылка на лендинг: flowery-rake.surge.sh
 
 ### Hexlet tests and linter status:
 
