@@ -13,24 +13,24 @@
 @font-face {
   font-weight: 400;
   font-family: "Open Sans";
-  src: 
-    url(../fonts/OpenSans/OpenSans-Regular.ttf) format("opentype"),
-    url(../fonts/OpenSans/OpenSans-Regular.woff) format("woff");
+  src:
+    url("../fonts/OpenSans/OpenSans-Regular.ttf") format("opentype"),
+    url("../fonts/OpenSans/OpenSans-Regular.woff") format("woff");
 }
 
 @font-face {
   font-weight: 700;
   font-family: "Open Sans";
-  src: 
-    url(../fonts/OpenSans/OpenSans-Bold.ttf) format("opentype"),
-    url(../fonts/OpenSans/OpenSans-Bold.woff) format("woff");
+  src:
+    url("../fonts/OpenSans/OpenSans-Bold.ttf") format("opentype"),
+    url("../fonts/OpenSans/OpenSans-Bold.woff") format("woff");
 }
 
 @font-face {
   font-family: Neucha;
-  src: 
-    url(../fonts/Neucha/Neucha.ttf) format("opentype"),
-    url(../fonts/Neucha/Neucha.woff) format("woff");
+  src:
+    url("../fonts/Neucha/Neucha.ttf") format("opentype"),
+    url("../fonts/Neucha/Neucha.woff") format("woff");
 }
 
 * {
@@ -41,7 +41,7 @@
   font-size: 100%;
 
   border: none;
-} 
+}
 
 body {
   font: 16px/1.6em "Open Sans", sans-serif;
@@ -58,12 +58,12 @@ li {
   padding: 15px;
 }
 
-h1, 
+h1,
 h2,
 h3,
-.block_main-title,
+.block__main-title,
 .nav__title {
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
   line-height: 1.2em;
 }
 
@@ -115,11 +115,10 @@ h3 {
   width: 100%;
   height: 100%;
 
-  background-image: url(../img/background.png);
+  background-image: url("../img/background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 10%;
-  
+  opacity: 0.1;
   content: "";
 }
 
@@ -150,18 +149,18 @@ h3 {
   font: 16px/1.6rem "Open Sans", sans-serif;
 }
 
-.text_container {
+.text-container {
   display: flex;
   justify-content: space-between;
 
   width: 100%;
 }
 
-.text_container__column {
+.text-container__column {
   width: 50%;
 }
 
-.text_container__column:first-of-type {
+.text-container__column:first-of-type {
   margin-right: 30px;
 }
 
@@ -176,7 +175,7 @@ h3 {
 /* button */
 
 .button:hover {
-  background-color: #EA7600;
+  background-color: #ea7600;
 }
 
 /* header section */
@@ -286,7 +285,7 @@ h3 {
 .nav__num {
   padding-bottom: 40px;
 
-  font: 64px/64px Neucha;
+  font: 64px/64px Neucha, sans-serif;
   color: var(--basedark);
 }
 
@@ -316,7 +315,7 @@ h3 {
 }
 
 .section__chapter {
-  font: 24px/1.3em Neucha;
+  font: 24px/1.3em Neucha, sans-serif;
 }
 
 .section__chapter-light {
@@ -337,7 +336,7 @@ h3 {
 
 .section__subtitle {
   margin-top: 30px;
-  font: 34px/1.2em Neucha;
+  font: 34px/1.2em Neucha, sans-serif;
 }
 
 .section__subtitle-dark {
@@ -395,7 +394,6 @@ h3 {
   opacity: 0.2;
 }
 
-
 .feedback__button {
   position: relative;
   width: 70px;
@@ -418,7 +416,7 @@ h3 {
 
   margin: auto;
 
-  background-image: url(../img/send.svg);
+  background-image: url("../img/send.svg");
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -435,7 +433,7 @@ h3 {
   color: var(--white);
 }
 
-.feedback__rules a{
+.feedback__rules a {
   color: var(--white);
   border-bottom: 1px solid var(--white);
 }
@@ -454,43 +452,3 @@ h3 {
   color: var(--blue);
   border-bottom: 1px solid var(--blue);
 }
-
-/* .header-section {
-  background: url(/src/img/скриншоты/header-section.png) 50% 0 no-repeat;
-}
-
-.video-section {
-  background: url(/src/img/скриншоты/video-section\ \(1\).png) 50% 0 no-repeat;
-}
-
-.menu-section {
-  background: url(/src/img/скриншоты/navigation-section.png) 50% 0 no-repeat;
-}
-
-.menu-section {
-  background: url(/src/img/скриншоты/navigation-section.png) 50% 0 no-repeat;
-}
-
-#ikea-effect {
-  background: url(/src/img/скриншоты/cognitive-biases-sections-the-ikea-effect.png) 50% 0 no-repeat;
-}
-
-#premature-optimization {
-  background: url(/src/img/скриншоты/cognitive-biases-sections-premature-optimization.png) 50% 0 no-repeat;
-}
-
-#distortion-of-novelty {
-  background: url(/src/img/скриншоты/cognitive-biases-sections-distortion-of-novelty.png) 50% 0 no-repeat;
-}
-
-#hyperbolic-depreciation {
-  background: url(/src/img/скриншоты/cognitive-biases-sections-hyperbolic-depreciation.png) 50% 0 no-repeat;
-}
-
-#errors-in-planning {
-  background: url(/src/img/скриншоты/cognitive-biases-sections-errors-in-planning.png) 50% 0 no-repeat;
-}
-
-.footer {
-  background: url(/src/img/скриншоты/footer-section.png) 50% 0 no-repeat;
-} */
