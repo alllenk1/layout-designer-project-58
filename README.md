@@ -1,4 +1,4 @@
-Ссылка на лендинг: https://bitter-news.surge.sh/
+Ссылка на лендинг: noxious-pocket.surge.sh
 
 ### Hexlet tests and linter status:
 
