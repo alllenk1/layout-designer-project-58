@@ -1,4 +1,4 @@
-Ссылка на лендинг: https://gullible-money.surge.sh/
+Ссылка на лендинг: https://bitter-news.surge.sh/
 
 ### Hexlet tests and linter status:
 
