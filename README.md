@@ -1,4 +1,4 @@
-Ссылка на лендинг: https://shut-furniture.surge.sh/
+Ссылка на лендинг: https://romantic-mom.surge.sh/
 
 ### Hexlet tests and linter status:
 
