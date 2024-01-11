@@ -278,7 +278,7 @@ h3 {
   color: var(--white);
 }
 
-.block_main-title {
+.block__main-title {
   font-size: 52px;
 }
 
